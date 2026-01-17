@@ -1,7 +1,0 @@
-mod 1/data/
-*.parquet
-*.csv
-mod 1/homework/ingest/.venv/
-mod 1/homework/ingest/data/
-*.parquet
-*.csv
