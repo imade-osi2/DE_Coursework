@@ -142,17 +142,18 @@ Modify the files as necessary to create a GCP Bucket and Big Query Dataset.
 
 ## Question 7. Terraform Workflow
 
-Which of the following sequences, respectively, describes the workflow for:
-1. Downloading the provider plugins and setting up backend,
-2. Generating proposed changes and auto-executing the plan
-3. Remove all resources managed by terraform`
+Which of the following sequences, respectively, describes the workflow for:  
+1. Downloading the provider plugins and setting up backend  
+2. Generating proposed changes and auto-executing the plan  
+3. Removing all resources managed by Terraform
 
-Answers:
-- terraform import, terraform apply -y, terraform destroy
-- teraform init, terraform plan -auto-apply, terraform rm
-- terraform init, terraform run -auto-approve, terraform destroy
-- terraform init, terraform apply -auto-approve, terraform destroy **<== Answer**
-- terraform import, terraform apply -y, terraform rm
+- terraform import, terraform apply -y, terraform destroy  
+- teraform init, terraform plan -auto-apply, terraform rm  
+- terraform init, terraform run -auto-approve, terraform destroy  
+- **terraform init, terraform apply -auto-approve, terraform destroy <== Answer**  
+- terraform import, terraform apply -y, terraform rm  
+
+[Review lecture here](https://www.youtube.com/watch?v=Y2ux7gq3Z0o&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=12&feature=youtu.be)
 
 
 ## Submitting the solutions
@@ -310,3 +311,13 @@ GROUP BY zdo."Zone"
 ORDER BY max_tip DESC
 LIMIT 1;
 ```
+
+---
+
+## Question 7. Terraform Workflow
+
+Answers:
+
+- terraform init, terraform apply -auto-approve, terraform destroy 
+
+review lecture here: https://www.youtube.com/watch?v=Y2ux7gq3Z0o&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=12&feature=youtu.be
