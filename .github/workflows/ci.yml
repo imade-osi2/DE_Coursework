@@ -1,7 +1,0 @@
-name: CI
-on: [push]
-jobs:
-  pass:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "All good"
