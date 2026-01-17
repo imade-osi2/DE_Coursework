@@ -20,7 +20,7 @@ Run docker with the `python:3.13` image. Use an entrypoint `bash` to interact wi
 
 What's the version of `pip` in the image?
 
-- 25.3 <== Answer 
+- 25.3 **<== Answer**
 - 24.3.1
 - 24.2.1
 - 23.3.1
@@ -66,7 +66,7 @@ volumes:
 - localhost:5432
 - db:5433
 - postgres:5432
-- db:5432 <== Answer 
+- db:5432 **<== Answer**
 
 If multiple answers are correct, select any 
 
@@ -90,7 +90,7 @@ wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_z
 For the trips in November 2025 (lpep_pickup_datetime between '2025-11-01' and '2025-12-01', exclusive of the upper bound), how many trips had a `trip_distance` of less than or equal to 1 mile?
 
 - 7,853
-- 8,007 <== Answer 
+- 8,007 **<== Answer**
 - 8,254
 - 8,421
 
@@ -101,7 +101,7 @@ Which was the pick up day with the longest trip distance? Only consider trips wi
 
 Use the pick up time for your calculations.
 
-- 2025-11-14 <== Answer 
+- 2025-11-14 **<== Answer**
 - 2025-11-20
 - 2025-11-23
 - 2025-11-25
@@ -111,7 +111,7 @@ Use the pick up time for your calculations.
 
 Which was the pickup zone with the largest `total_amount` (sum of all trips) on November 18th, 2025?
 
-- East Harlem North <== Answer 
+- East Harlem North **<== Answer**
 - East Harlem South
 - Morningside Heights
 - Forest Hills
@@ -124,7 +124,7 @@ For the passengers picked up in the zone named "East Harlem North" in November 2
 Note: it's `tip` , not `trip`. We need the name of the zone, not the ID.
 
 - JFK Airport
-- Yorkville West <== Answer 
+- Yorkville West **<== Answer**
 - East Harlem North
 - LaGuardia Airport
 
@@ -151,7 +151,7 @@ Answers:
 - terraform import, terraform apply -y, terraform destroy
 - teraform init, terraform plan -auto-apply, terraform rm
 - terraform init, terraform run -auto-approve, terraform destroy
-- terraform init, terraform apply -auto-approve, terraform destroy
+- terraform init, terraform apply -auto-approve, terraform destroy **<== Answer**
 - terraform import, terraform apply -y, terraform rm
 
 
