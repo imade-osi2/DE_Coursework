@@ -316,7 +316,7 @@ LIMIT 1;
 
 ## Question 7. Terraform Workflow
 
-Answers:
+Answer:
 
 - terraform init, terraform apply -auto-approve, terraform destroy 
 
