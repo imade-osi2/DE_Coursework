@@ -204,7 +204,7 @@ tasks:
               ehail_fee              double precision,
               improvement_surcharge  double precision,
               total_amount           double precision,
-              payment_type           double precision,
+              payment_type           integer,
               trip_type              integer,
               congestion_surcharge   double precision
           );
