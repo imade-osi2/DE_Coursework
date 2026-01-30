@@ -18,7 +18,7 @@ inputs:
 
   - id: month
     type: SELECT
-    displayName: Select month
+    displayName: Select Month
     values: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
     defaults: "01"
 
@@ -204,7 +204,7 @@ tasks:
               ehail_fee              double precision,
               improvement_surcharge  double precision,
               total_amount           double precision,
-              payment_type           integer,
+              payment_type           double precision,
               trip_type              integer,
               congestion_surcharge   double precision
           );
