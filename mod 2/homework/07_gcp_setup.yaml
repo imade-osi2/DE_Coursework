@@ -1,5 +1,5 @@
 id: 07_gcp_setup
-namespace: de_zoomcamp
+namespace: zoomcamp
 
 tasks:
   - id: create_gcs_bucket
