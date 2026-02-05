@@ -260,7 +260,7 @@ tasks:
   
   - id: purge_files
     type: io.kestra.plugin.core.storage.PurgeCurrentExecutionFiles
-    description: This will remove output files. If you'd like to explore Kestra outputs, disable it.
+    description: This will remove output files. If you'd like to explore Kestra outputs then disable it.
 
 pluginDefaults:
   - type: io.kestra.plugin.jdbc.postgresql
